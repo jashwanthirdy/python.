@@ -1,0 +1,12 @@
+a=int (input("enter salary value: "))
+
+y=int (input ("No. of years of services: "))
+if (y>5):
+    net_bonus =a*0.05
+
+    net_salary=net_bonus+a
+
+    print (net_bonus)
+    print (net_salary)
+else:
+    print ("no bonus")
