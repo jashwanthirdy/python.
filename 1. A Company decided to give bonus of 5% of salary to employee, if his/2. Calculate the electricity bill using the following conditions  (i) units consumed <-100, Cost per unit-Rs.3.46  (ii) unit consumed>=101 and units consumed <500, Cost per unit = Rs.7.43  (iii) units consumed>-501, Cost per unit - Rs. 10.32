@@ -1,0 +1,19 @@
+u=int (input ("enter number of units consumed: "))
+
+if (u<=100):
+
+    electricity_bill=u*3.46
+
+    print (electricity_bill)
+
+elif (u>=101 and u<=500):
+
+     electricity_bill=u*7.43
+
+     print (electricity_bill)
+
+else:
+
+     electricity_bill=u*10.32
+
+     print (electricity_bill)
